@@ -1,0 +1,3 @@
+[submodule "TECBoxService"]
+	path = TECBoxService
+	url = https://github.com/JoDaniel1412/TECBoxService.git

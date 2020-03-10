@@ -4,28 +4,23 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using TECBoxService.DB;
 using TECBoxService.Models;
 
 namespace TECBoxService.Controllers
 {
     public class EmployeeController : ApiController
     {
-        List<Employee> employees = new List<Employee>();
-
-        public EmployeeController()
-        {
-        }
-
         // GET api/<controller>
         public List<Employee> Get()
         {
-            return employees;
+            return DataBaseManager.GetEmployees();
         }
 
         // GET api/<controller>/5
         public Employee Get(int id)
         {
-            return employees.Where(x => x.ID == id).FirstOrDefault();
+            return DataBaseManager.GetEmployees().FirstOrDefault(x => x.ID == id);
         }
 
         // POST api/<controller>

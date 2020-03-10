@@ -1,3 +1,47 @@
-﻿{
-  
-}
+﻿[
+  {
+    "id":305190315,
+    "name":"Erick Barrantes Cerdas",
+    "birthDate":"12/07/1999",
+    "admissionDate":"07/02/2017",
+    "subsidiary":"Cartago",
+    "monthlySalary":2000000,
+    "hourlySalary":12500
+  },
+  {
+    "id":208030082,
+    "name":"Jessica Espinoza Quesada",
+    "birthDate":"17/03/2000",
+    "admissionDate":"11/02/2018",
+    "subsidiary":"Alajuela",
+    "monthlySalary":2500000,
+    "hourlySalary":15625
+  },
+  {
+    "id":117270690,
+    "name":"Jose Sánchez Schnitzler",
+    "birthDate":"29/11/1998",
+    "admissionDate":"24/06/2009",
+    "subsidiary":"Heredia",
+    "monthlySalary":8000000,
+    "hourlySalary":50000
+  },
+  {
+    "id":117640380,
+    "name":"Jose Acuna Solano",
+    "birthDate":"14/12/1999",
+    "admissionDate":"21/12/2012",
+    "subsidiary":"San Jose",
+    "monthlySalary":1920,
+    "hourlySalary":12
+  },
+  {
+    "id":304580154,
+    "name":"Kevin Barrantes Cerdas",
+    "birthDate":"16/03/1996",
+    "admissionDate":"17/12/2011",
+    "subsidiary":"Puntarenas",
+    "monthlySalary":1700000,
+    "hourlySalary":10625
+  }
+]

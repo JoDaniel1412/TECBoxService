@@ -6,6 +6,6 @@
         public int Locker { get; set; }
         public int CellPhone { get; set; }
         public int HomePhone { get; set; }
-        public Place Direction { get; set; }
+        public long PlaceId { get; set; }
     }
 }

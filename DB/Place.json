@@ -1,0 +1,16 @@
+﻿[
+  {
+    "placeId": 1234,
+    "province": "Heredia",
+    "city": "SanRafael",
+    "district": "Los Angeles",
+    "other": "Calle Hernandez"
+  },
+  {
+    "placeId": 12344,
+    "province": "San Jose",
+    "city": "SanJose",
+    "district": "San Sebastian",
+    "other": "Urb Zorobaru"
+  }
+]

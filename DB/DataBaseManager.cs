@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using TECBoxService.Models;
 
 namespace TECBoxService.DB
@@ -16,6 +17,13 @@ namespace TECBoxService.DB
         public static List<Route> GetRoute() => Deserialize<List<Route>>("Route.json");
         public static List<Product> GetProduct() => Deserialize<List<Product>>("Product.json");
         public static List<Package> GetPackage() => Deserialize<List<Package>>("Package.json");
-        public static T Deserialize<T>(string file) => Newtonsoft.Json.JsonConvert.DeserializeObject<T>(file);
+
+        private static T Deserialize<T>(string path)
+        {
+            const string subFolder = "DB";
+            var rPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, subFolder, path);
+            var json = System.IO.File.ReadAllText(rPath);
+            return Newtonsoft.Json.JsonConvert.DeserializeObject<T>(json);
+        }
     }
 }

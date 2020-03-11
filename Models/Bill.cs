@@ -8,10 +8,10 @@ namespace TECBoxService.Models
     {
         public long Id { get; set; }
         public DateTime Date { get; set; }
-        public Client Client { get; set; }
-        public Package Package { get; set; }
+        public long ClientId { get; set; }
+        public long PackageId { get; set; }
         public int TotalPrice { get; set; }
-        // List of prices [product, price]
+        // List of prices [productId, price]
         public List<Pair> IndividualPrices { get; set; }
     }
 }

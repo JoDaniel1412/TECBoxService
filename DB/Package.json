@@ -1,0 +1,17 @@
+﻿[
+  {
+    "trackingId": 12345,
+    "products": [
+      {
+        "first": 1234,
+        "second": 2
+      }
+    ],
+    "billId": 1234,
+    "state": "delivered,",
+    "routeId": 1234,
+    "departure":"2000-07-14 19:43:37 +0600",
+    "arrive":"2000-07-14 19:43:37 +0600",
+    "deliver":"2000-07-14 19:43:37 +0600"
+  }
+]

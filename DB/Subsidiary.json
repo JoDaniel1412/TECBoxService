@@ -2,51 +2,23 @@
   {
     "id": 0,
     "name":"Cartago",
-    "provincia":"Cartago",
-    "canton":"Paraiso",
-    "district":"Orosi",
-    "otherSigns": "",
+    "placeId": 0,
     "phone":25543256,
-    "manager":"Erick Barrantes Cerdas"
-  },
-  {
-    "id": 1,
-    "name":"Alajuela",
-    "provincia":"Alajuela",
-    "canton":"Alajuela",
-    "district":"La Garita",
-    "otherSigns": "",
-    "phone":24555635,
-    "manager":"Jessica Espinoza Quesada"
-  },
-  {
-    "id": 2,
-    "name":"Heredia",
-    "provincia":"Heredia",
-    "canton":"Central",
-    "district":"San Rafael",
-    "otherSigns":"",
-    "phone":23532534,
-    "manager":"Jose Sanchez Schnitzler"
-  },
-  {
-    "id": 3,
-    "name":"San Jose",
-    "provincia":"San Jose",
-    "canton":"San Jose",
-    "district":"Escazu",
-    "otherSigns":"",
-    "phone":22342345,
-    "manager":"Jose Acuna Solano"
-  },
-  {
-    "id": 4,
-    "name":"Puntarenas",
-    "provincia":"Puntarenas",
-    "canton":"Buenos Aires",
-    "district":"Buenos Aires",
-    "otherSigns":"",
-    "phone":27483953,
-    "manager":"Kevin Barrantes Cerdas"
+    "managerID":1234,
+    "storageDelegateID":1234,
+    "storage": [
+      {
+        "first": 1234,
+        "second": 3
+      },
+      {
+        "first": 12345,
+        "second": 5
+      },
+      {
+        "first": 2314,
+        "second": 5
+      }
+    ]
   }
 ]

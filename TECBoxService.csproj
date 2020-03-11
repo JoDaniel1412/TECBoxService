@@ -176,6 +176,7 @@
     </Compile>
     <Compile Include="Models\Place.cs" />
     <Compile Include="Models\Product.cs" />
+    <Compile Include="Models\Role.cs" />
     <Compile Include="Models\Route.cs" />
     <Compile Include="Models\Seller.cs" />
     <Compile Include="Models\Subsidiary.cs" />
@@ -187,10 +188,14 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="DB\Bill.json" />
     <Content Include="DB\Client.json" />
     <Content Include="DB\Employee.json" />
+    <Content Include="DB\Package.json" />
+    <Content Include="DB\Place.json" />
     <Content Include="DB\Product.json" />
     <Content Include="DB\Role.json" />
+    <Content Include="DB\Route.json" />
     <Content Include="DB\Seller.json" />
     <Content Include="DB\Subsidiary.json" />
     <Content Include="favicon.ico" />

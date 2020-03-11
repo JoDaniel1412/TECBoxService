@@ -1,22 +1,22 @@
 ﻿[
   {
-    "name":"Erick Barrantes Cerdas",
-    "role":"administrator"
+    "employeeID": 1234,
+    "position":"administrator"
   },
   {
-    "name":"Jessica Espinoza Quesada",
-    "role":"grocer"
+    "employeeID":12345,
+    "position":"grocer"
   },
   {
-    "name":"Jose Sánchez Schnitzler",
-    "role":"distributor"
+    "employeeID":0,
+    "position":"distributor"
   },
   {
-    "name":"Jose Acuna Solano",
-    "role":"administrator"
+    "employeeID":1,
+    "position":"administrator"
   },
   {
-    "name":"Kevin Barrantes Cerdas",
-    "role":"distributor"
+    "employeeID":2,
+    "position":"distributor"
   }
 ]

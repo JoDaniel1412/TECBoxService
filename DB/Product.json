@@ -1,38 +1,46 @@
 ﻿[
   {
+    "barcode": 0,
     "name":"Strawberry Yogurt",
     "description":"Dos Pinos",
-    "id":1010010,
-    "seller":"Kevin Cordero Zuniga",
-    "price":800,
-    "tax":0,
-    "discount":0
+    "sellerId":"0",
+    "sells":"10",
+    "cost":800,
+    "iva":0.10,
+    "discount":0.10,
+    "price":900
   },
   {
+    "barcode": 1,
     "name":"Butter",
     "description":"Numar",
-    "id":276549,
-    "seller":"Alejandro Ibarra Campos",
-    "price":600,
-    "tax":4,
-    "discount":10
+    "sellerId":"2",
+    "sells":"10",
+    "cost":800,
+    "iva":0.10,
+    "discount":0.10,
+    "price":900
   },
   {
+    "barcode": 2,
     "name":"Nesquik",
     "description":"Nestle",
-    "id":13583921,
-    "seller":"Alejandro Ibarra Campos",
-    "price":1400,
-    "tax":5,
-    "discount":0
+    "sellerId":"2",
+    "sells":"10",
+    "cost":800,
+    "iva":0.10,
+    "discount":0.10,
+    "price":900
   },
   {
+    "barcode": 3,
     "name":"Rice",
     "description":"Tio Pelon",
-    "id":298364,
-    "seller":"Wajib Zaglul Chinchilla",
-    "price":1500,
-    "tax":7,
-    "discount":5
+    "sellerId":"1",
+    "sells":"10",
+    "cost":800,
+    "iva":0.10,
+    "discount":0.10,
+    "price":900
   }
 ]

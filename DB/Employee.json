@@ -1,47 +1,76 @@
 ﻿[
   {
     "id":305190315,
-    "name":"Erick Barrantes Cerdas",
-    "birthDate":"12/07/1999",
-    "admissionDate":"07/02/2017",
-    "subsidiary":"Cartago",
-    "monthlySalary":2000000,
-    "hourlySalary":12500
+    "firstname":"Erick",
+    "lastname":"Barrantes Cerdas",
+    "birthDate":"2000-07-14 19:43:37 +0600",
+    "admission":"2011-07-14 19:43:37 +0600",
+    "subsidiaryId":23,
+    "salaryMonth":2000000,
+    "salaryHour":12500,
+    "workedHours":12500,
+    "role": {
+      "employeeID": 305190315,
+      "position": "Administrator"
+    }
   },
   {
     "id":208030082,
-    "name":"Jessica Espinoza Quesada",
-    "birthDate":"17/03/2000",
-    "admissionDate":"11/02/2018",
-    "subsidiary":"Alajuela",
-    "monthlySalary":2500000,
-    "hourlySalary":15625
+    "firstname":"Jessica",
+    "lastname":"Espinoza Quesada",
+    "birthDate":"2000-07-14 19:43:37 +0600",
+    "admissionDate":"2000-03-17 19:43:37 +0600",
+    "subsidiaryId":23,
+    "salaryMonth":2000000,
+    "salaryHour":12500,
+    "workedHours":12500,
+    "role": {
+      "employeeID": 305190315,
+      "position": "Administrator"
+    }
   },
   {
     "id":117270690,
     "name":"Jose Sánchez Schnitzler",
-    "birthDate":"29/11/1998",
-    "admissionDate":"24/06/2009",
-    "subsidiary":"Heredia",
-    "monthlySalary":8000000,
-    "hourlySalary":50000
+    "birthDate":"1998-11-29 19:43:37 +0600",
+    "admissionDate":"2010-07-14 19:43:37 +0600",
+    "subsidiaryId":23,
+    "salaryMonth":2000000,
+    "salaryHour":12500,
+    "workedHours":12500,
+    "role": {
+      "employeeID": 117270690,
+      "position": "Deliveries"
+    }
   },
   {
     "id":117640380,
-    "name":"Jose Acuna Solano",
-    "birthDate":"14/12/1999",
-    "admissionDate":"21/12/2012",
-    "subsidiary":"San Jose",
-    "monthlySalary":1920,
-    "hourlySalary":12
+    "firstname":"Jose",
+    "lastname":"Acuna Solano",
+    "birthDate":"1999-12-14 19:43:37 +0600",
+    "admissionDate":"2010-07-14 19:43:37 +0600",
+    "subsidiaryId":23,
+    "salaryMonth":2000000,
+    "salaryHour":12500,
+    "workedHours":12500,
+    "role": {
+      "employeeID": 117640380,
+      "position": "Administrator"
+    }
   },
   {
     "id":304580154,
-    "name":"Kevin Barrantes Cerdas",
-    "birthDate":"16/03/1996",
-    "admissionDate":"17/12/2011",
-    "subsidiary":"Puntarenas",
-    "monthlySalary":1700000,
-    "hourlySalary":10625
+    "firstname":"Kevin",
+    "lastname":"Barrantes Cerdas",
+    "birthDate":"2000-07-14 19:43:37 +0600",
+    "admissionDate":"2010-07-14 19:43:37 +0600",
+    "subsidiaryId":23,
+    "salaryMonth":2000000,
+    "salaryHour":12500,
+    "workedHours":12500,
+    "role": {
+      "employeeID": 304580154,
+      "position": "Administrator"
+    }
   }
 ]

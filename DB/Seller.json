@@ -1,14 +1,17 @@
 ﻿[
   {
-    "name":"Kevin Cordero Zuniga",
+    "firstname":"Kevin",
+    "lastname":"Cordero Zuniga",
     "id":403250234
   },
   {
-    "name":"Alejandro Ibarra Campos",
+    "firstname":"Alejandro",
+    "lastname": "Ibarra Campos",
     "id":502340667
   },
   {
-    "name":"Wajib Zaglul Chinchilla",
+    "firstname":"Wajib",
+    "lastname":"Zaglul Chinchilla",
     "id":102340776
   }
 ]

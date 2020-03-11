@@ -1,0 +1,19 @@
+﻿[
+  {
+    "id":304580154,
+    "date":"2000-07-14 19:43:37 +0600",
+    "client": 1234,
+    "package": 1234,
+    "totalPrice":23,
+    "individualPrices":[
+      {
+        "first": 1234,
+        "second": 2
+      },
+      {
+        "first": 12345,
+        "second": 3
+      }
+    ]
+  }
+]

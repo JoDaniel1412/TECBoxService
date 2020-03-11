@@ -1,0 +1,22 @@
+﻿[
+  {
+    "id":102340532,
+    "firstname":"Esteban",
+    "lastname":"Medina Navarro",
+    "email":"emedina@gmail.com",
+    "locker":22,
+    "cellphone":89482288,
+    "homePhone":29314952,
+    "placeId": 12344
+  },
+  {
+    "id":303210513,
+    "firstname":"Andres",
+    "lastname":"Herrera Sanchez",
+    "email":"aherrera@gmail.com",
+    "locker":18,
+    "cellphone":86823952,
+    "homePhone":22395923,
+    "placeId": 1234
+  }
+]

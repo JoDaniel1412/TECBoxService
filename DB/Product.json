@@ -1,0 +1,46 @@
+﻿[
+  {
+    "barcode": 0,
+    "name":"Strawberry Yogurt",
+    "description":"Dos Pinos",
+    "sellerId":"0",
+    "sells":"10",
+    "cost":800,
+    "iva":0.10,
+    "discount":0.10,
+    "price":900
+  },
+  {
+    "barcode": 1,
+    "name":"Butter",
+    "description":"Numar",
+    "sellerId":"2",
+    "sells":"10",
+    "cost":800,
+    "iva":0.10,
+    "discount":0.10,
+    "price":900
+  },
+  {
+    "barcode": 2,
+    "name":"Nesquik",
+    "description":"Nestle",
+    "sellerId":"2",
+    "sells":"10",
+    "cost":800,
+    "iva":0.10,
+    "discount":0.10,
+    "price":900
+  },
+  {
+    "barcode": 3,
+    "name":"Rice",
+    "description":"Tio Pelon",
+    "sellerId":"1",
+    "sells":"10",
+    "cost":800,
+    "iva":0.10,
+    "discount":0.10,
+    "price":900
+  }
+]

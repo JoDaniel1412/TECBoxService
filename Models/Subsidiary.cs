@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Web.UI;
 
 namespace TECBoxService.Models
 {
@@ -10,6 +11,6 @@ namespace TECBoxService.Models
         public int Phone { get; set; }
         public int ManagerID { get; set; }
         public int StorageDelegateID { get; set; }
-        public List<long> Storage { get; set; }
+        public List<Pair> Storage { get; set; }
     }
 }

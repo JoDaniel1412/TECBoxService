@@ -12,6 +12,7 @@ namespace TECBoxService.DB
         public static List<Seller> GetSellers() => Deserialize<List<Seller>>("Seller.json");
         public static List<Client> GetClient() => Deserialize<List<Client>>("Client.json");
         public static List<Place> GetPlace() => Deserialize<List<Place>>("Place.json");
+        public static List<Role> GetRole() => Deserialize<List<Role>>("Role.json");
         public static List<Subsidiary> GetSubsidiary() => Deserialize<List<Subsidiary>>("Subsidiary.json");
         public static List<Bill> GetBill() => Deserialize<List<Bill>>("Bill.json");
         public static List<Route> GetRoute() => Deserialize<List<Route>>("Route.json");

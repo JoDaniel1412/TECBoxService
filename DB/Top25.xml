@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfProduct xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Product>
+    <Barcode>3</Barcode>
+    <Name>Rice</Name>
+    <Description>Tio Pelon</Description>
+    <SellerId>1</SellerId>
+    <Sells>20</Sells>
+    <Cost>800</Cost>
+    <IVA>0.1</IVA>
+    <Discount>0.1</Discount>
+    <Price>900</Price>
+  </Product>
+  <Product>
+    <Barcode>0</Barcode>
+    <Name>Strawberry Yogurt</Name>
+    <Description>Dos Pinos</Description>
+    <SellerId>0</SellerId>
+    <Sells>10</Sells>
+    <Cost>800</Cost>
+    <IVA>0.1</IVA>
+    <Discount>0.1</Discount>
+    <Price>900</Price>
+  </Product>
+  <Product>
+    <Barcode>2</Barcode>
+    <Name>Nesquik</Name>
+    <Description>Nestle</Description>
+    <SellerId>2</SellerId>
+    <Sells>8</Sells>
+    <Cost>800</Cost>
+    <IVA>0.1</IVA>
+    <Discount>0.1</Discount>
+    <Price>900</Price>
+  </Product>
+  <Product>
+    <Barcode>1</Barcode>
+    <Name>Butter</Name>
+    <Description>Numar</Description>
+    <SellerId>2</SellerId>
+    <Sells>2</Sells>
+    <Cost>800</Cost>
+    <IVA>0.1</IVA>
+    <Discount>0.1</Discount>
+    <Price>900</Price>
+  </Product>
+</ArrayOfProduct>

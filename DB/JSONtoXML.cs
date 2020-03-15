@@ -7,7 +7,7 @@ using TECBoxService.Models;
 
 namespace TECBoxService.DB
 {
-    public class ReportsXML
+    public class JSONtoXML
     {
         public static void GenerateTop25Products()
         {

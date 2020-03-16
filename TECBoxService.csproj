@@ -209,6 +209,9 @@
     <Compile Include="Models\Seller.cs" />
     <Compile Include="Models\Subsidiary.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reports\DeliveredReport.cs">
+      <DependentUpon>DeliveredReport.rpt</DependentUpon>
+    </Compile>
     <Compile Include="Reports\ReportGenerator.cs" />
     <Compile Include="Reports\RouteReport.cs">
       <AutoGen>True</AutoGen>
@@ -231,12 +234,15 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="DB\Bill.json" />
     <Content Include="DB\Client.json" />
+    <Content Include="DB\Delivered.xml" />
+    <Content Include="DB\DeliveredReport.pdf" />
     <Content Include="DB\Employee.json" />
     <Content Include="DB\Package.json" />
     <Content Include="DB\Place.json" />
     <Content Include="DB\Product.json" />
     <Content Include="DB\Role.json" />
     <Content Include="DB\Route.json" />
+    <Content Include="DB\RouteReport.pdf" />
     <Content Include="DB\Routes.xml" />
     <Content Include="DB\Seller.json" />
     <Content Include="DB\Subsidiary.json" />
@@ -246,6 +252,7 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <EmbeddedResource Include="Reports\DeliveredReport.rpt" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Areas\HelpPage\Views\Web.config" />

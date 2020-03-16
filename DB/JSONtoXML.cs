@@ -36,11 +36,15 @@ namespace TECBoxService.DB
             GenerateXml(packages, "Routes.xml");
         }
         
-        // Generates xml with the top 25 selled products
-        public static void GenerateDelivered()
+        // Generates xml with the delivered packages between two dates
+        public static void GenerateDelivered(DateTime startDate, DateTime finalDate)
         {
             var packages = DataBaseManager.GetPackage();
-            var delivered = packages.Where(t => t.State.Equals("Delivered")).ToList();
+            var delivered = packages.Where(t => 
+                t.State.Equals("delivered") && 
+                t.Deliver > startDate &&
+                t.Deliver < finalDate)
+                .ToList();
             GenerateXml(delivered, "Delivered.xml");
         }
         

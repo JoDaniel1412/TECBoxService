@@ -30,10 +30,13 @@ namespace TECBoxService.Controllers
                     GetTop25(response);
                     break;
                 case "route":
-                    var routeId = Request.Headers.GetValues("routeId").First();
-                    GetRoute(response, Convert.ToInt64(routeId));
+                    var routeId = Convert.ToInt64(Request.Headers.GetValues("routeId").First());
+                    GetRoute(response, routeId);
                     break;
                 case "delivered":
+                    var startDate = Convert.ToDateTime(Request.Headers.GetValues("startDate").First());
+                    var finalDate = Convert.ToDateTime(Request.Headers.GetValues("finalDate").First());
+                    GetDelivered(response, startDate, finalDate);
                     break;
                 default:
                     response = Request.CreateResponse(HttpStatusCode.BadRequest);
@@ -57,6 +60,14 @@ namespace TECBoxService.Controllers
             const string filename = "RouteReport.pdf";
             DB.JSONtoXML.GenerateRoutes(routeId);
             ReportGenerator.ExportPdf(filename, new RouteReport());
+            FindPdf(response, filename);
+        }
+        
+        private static void GetDelivered(HttpResponseMessage response, DateTime startDate, DateTime finalDate)
+        {
+            const string filename = "DeliveredReport.pdf";
+            DB.JSONtoXML.GenerateDelivered(startDate, finalDate);
+            ReportGenerator.ExportPdf(filename, new DeliveredReport());
             FindPdf(response, filename);
         }
 

@@ -4,40 +4,37 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Web;
+using CrystalDecisions.CrystalReports.Engine;
 
 namespace TECBoxService.Reports
 {
-    public class ReportGenerator
+    public static class ReportGenerator
     {
-        private const string path = "";
-        public static void ExportPDF()
+        private const string SubFolder = "DB";
+        
+        public static void ExportPdf(string filename, ReportClass crReport)
         {
+            var dest = new DiskFileDestinationOptions {DiskFileName = GetPath(filename)};
 
-            TopProductsReport CrReport = new TopProductsReport();
+            var formatOpt = new PdfFormatOptions
+            {
+                FirstPageNumber = 0, LastPageNumber = 0, UsePageRange = false, CreateBookmarksFromGroupTree = false
+            };
 
-            DiskFileDestinationOptions dest = new DiskFileDestinationOptions();
-            dest.DiskFileName = getPath("TopProductsReport.pdf");
+            var ex = new ExportOptions
+            {
+                ExportDestinationType = ExportDestinationType.DiskFile,
+                ExportDestinationOptions = dest,
+                ExportFormatType = ExportFormatType.PortableDocFormat,
+                ExportFormatOptions = formatOpt
+            };
 
-            PdfFormatOptions formatOpt = new PdfFormatOptions();
-            formatOpt.FirstPageNumber = 0;
-            formatOpt.LastPageNumber = 0;
-            formatOpt.UsePageRange = false;
-            formatOpt.CreateBookmarksFromGroupTree = false;
-
-            ExportOptions ex = new ExportOptions();
-            ex.ExportDestinationType = ExportDestinationType.DiskFile;
-            ex.ExportDestinationOptions = dest;
-            ex.ExportFormatType = ExportFormatType.PortableDocFormat;
-            ex.ExportFormatOptions = formatOpt;
-
-            CrReport.Export(ex);
-            Console.WriteLine("TopProductsReport");
+            crReport.Export(ex);
         }
 
-        private static string getPath(string filename)
+        private static string GetPath(string filename)
         {
-            const string subFolder = "DB";
-            return Path.Combine(AppDomain.CurrentDomain.BaseDirectory, subFolder, filename);
+            return Path.Combine(AppDomain.CurrentDomain.BaseDirectory, SubFolder, filename);
         }
     }
 }

@@ -5,11 +5,23 @@
       {
         "first": 1234,
         "second": 2
+      },
+      {
+        "first": 0,
+        "second": 1
+      },
+      {
+        "first": 1,
+        "second": 10
+      },
+      {
+        "first": 3,
+        "second": 4
       }
     ],
     "billId": 1234,
-    "state": "delivered,",
-    "routeId": 1234,
+    "state": "ready",
+    "routeId": 0,
     "departure":"2000-07-14 19:43:37 +0600",
     "arrive":"2000-07-14 19:43:37 +0600",
     "deliver":"2000-07-14 19:43:37 +0600"

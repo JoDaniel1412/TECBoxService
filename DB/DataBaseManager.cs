@@ -23,7 +23,7 @@ namespace TECBoxService.DB
         {
             const string subFolder = "DB";
             var rPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, subFolder, path);
-            var json = System.IO.File.ReadAllText(rPath);
+            var json = File.ReadAllText(rPath);
             return Newtonsoft.Json.JsonConvert.DeserializeObject<T>(json);
         }
     }

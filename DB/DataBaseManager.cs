@@ -38,11 +38,14 @@ namespace TECBoxService.DB
 
         public static List<Package> GetRoutesReport(long routeId)
         {
-            var route = GetRoute()
-                .Where(t => t.Id == routeId);
+            var all = false;
+            if (routeId.Equals(-1)) all = true;
             var packages = GetPackage()
-                .Where(t => t.RouteId.Equals(routeId) && t.State.Equals("ready"))
+                .Where(t => (all || t.RouteId.Equals(routeId)) 
+                && t.State.Equals("ready"))
                 .ToList();
+            if (routeId.Equals(-2) || packages.Count.Equals(0)) 
+                packages.Add(new Package());
             return packages;
         }
 

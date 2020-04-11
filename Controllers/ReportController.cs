@@ -30,7 +30,20 @@ namespace TECBoxService.Controllers
                     GetTop25(response);
                     break;
                 case "route":
-                    var routeId = Convert.ToInt64(Request.Headers.GetValues("routeId").First());
+                    var routeIdStr = Request.Headers.GetValues("routeId").First();
+                    long routeId;
+                    if (routeIdStr.Equals("")) routeId = -1;
+                    else
+                    {
+                        try
+                        {
+                            routeId = long.Parse(routeIdStr);
+                        }
+                        catch
+                        {
+                            routeId = -2;
+                        }
+                    }
                     GetRoute(response, routeId);
                     break;
                 case "delivered":

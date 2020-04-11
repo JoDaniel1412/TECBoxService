@@ -13,8 +13,21 @@ namespace TECBoxService.Controllers
     {
         // GET api/<controller>
         public List<Package> Get()
-        {
-            var routeId = Convert.ToInt64(Request.Headers.GetValues("routeId").First());
+        { 
+            var routeIdStr = Request.Headers.GetValues("routeId").First();
+            long routeId;
+            if (routeIdStr.Equals("")) routeId = -1;
+            else
+            {
+                try
+                {
+                    routeId = long.Parse(routeIdStr);
+                }
+                catch
+                {
+                    routeId = -2;
+                }
+            }
             return DataBaseManager.GetRoutesReport(routeId);
         }
     }

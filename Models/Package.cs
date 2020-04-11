@@ -6,6 +6,18 @@ namespace TECBoxService.Models
 {
     public class Package
     {
+        public Package ()
+        {
+            TrackingId = 0;
+            Products = new List<Pair>();
+            BillId = 0;
+            State = "";
+            RouteId = 0;
+            Departure = new DateTime();
+            Arrive = new DateTime();
+            Deliver = new DateTime();
+        }
+
         public long TrackingId { get; set; }
         // List of prices [productId, quantity]
         public List<Pair> Products { get; set; }

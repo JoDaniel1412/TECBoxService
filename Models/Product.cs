@@ -11,5 +11,7 @@
         public float IVA { get; set; }
         public float Discount { get; set; }
         public int Price { get; set; }
+
+        public string Url { get; set; }
     }
 }

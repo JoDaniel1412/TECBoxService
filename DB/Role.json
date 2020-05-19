@@ -1,0 +1,22 @@
+﻿[
+  {
+    "employeeID": 1234,
+    "position":"administrator"
+  },
+  {
+    "employeeID":12345,
+    "position":"grocer"
+  },
+  {
+    "employeeID":0,
+    "position":"distributor"
+  },
+  {
+    "employeeID":1,
+    "position":"administrator"
+  },
+  {
+    "employeeID":2,
+    "position":"distributor"
+  }
+]

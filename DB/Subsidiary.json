@@ -1,0 +1,24 @@
+﻿[
+  {
+    "id": 0,
+    "name":"Cartago",
+    "placeId": 0,
+    "phone":25543256,
+    "managerID":1234,
+    "storageDelegateID":1234,
+    "storage": [
+      {
+        "first": 1234,
+        "second": 3
+      },
+      {
+        "first": 12345,
+        "second": 5
+      },
+      {
+        "first": 2314,
+        "second": 5
+      }
+    ]
+  }
+]

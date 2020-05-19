@@ -1,0 +1,76 @@
+﻿[
+  {
+    "id":305190315,
+    "firstname":"Erick",
+    "lastname":"Barrantes Cerdas",
+    "birthDay":"2000-07-14 19:43:37 +0600",
+    "admission":"2011-07-14 19:43:37 +0600",
+    "subsidiaryId":23,
+    "salaryMonth":2000000,
+    "salaryHour":12500,
+    "workedHours":12500,
+    "role": {
+      "employeeID": 305190315,
+      "position": "Administrator"
+    }
+  },
+  {
+    "id":208030082,
+    "firstname":"Jessica",
+    "lastname":"Espinoza Quesada",
+    "birthDay":"2000-07-14 19:43:37 +0600",
+    "admissionDate":"2000-03-17 19:43:37 +0600",
+    "subsidiaryId":23,
+    "salaryMonth":2000000,
+    "salaryHour":12500,
+    "workedHours":12500,
+    "role": {
+      "employeeID": 305190315,
+      "position": "Administrator"
+    }
+  },
+  {
+    "id":117270690,
+    "name":"Jose Sánchez Schnitzler",
+    "birthDay":"1998-11-29 19:43:37 +0600",
+    "admissionDate":"2010-07-14 19:43:37 +0600",
+    "subsidiaryId":23,
+    "salaryMonth":2000000,
+    "salaryHour":12500,
+    "workedHours":12500,
+    "role": {
+      "employeeID": 117270690,
+      "position": "Deliveries"
+    }
+  },
+  {
+    "id":117640380,
+    "firstname":"Jose",
+    "lastname":"Acuna Solano",
+    "birthDay":"1999-12-14 19:43:37 +0600",
+    "admissionDate":"2010-07-14 19:43:37 +0600",
+    "subsidiaryId":23,
+    "salaryMonth":2000000,
+    "salaryHour":12500,
+    "workedHours":12500,
+    "role": {
+      "employeeID": 117640380,
+      "position": "Administrator"
+    }
+  },
+  {
+    "id":304580154,
+    "firstname":"Kevin",
+    "lastname":"Barrantes Cerdas",
+    "birthDay":"2000-07-14 19:43:37 +0600",
+    "admissionDate":"2010-07-14 19:43:37 +0600",
+    "subsidiaryId":23,
+    "salaryMonth":2000000,
+    "salaryHour":12500,
+    "workedHours":12500,
+    "role": {
+      "employeeID": 304580154,
+      "position": "Administrator"
+    }
+  }
+]

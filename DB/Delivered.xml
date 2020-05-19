@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPackage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Package>
+    <TrackingId>0</TrackingId>
+    <Products>
+      <Pair>
+        <First xsi:type="xsd:long">1234</First>
+        <Second xsi:type="xsd:long">2</Second>
+      </Pair>
+      <Pair>
+        <First xsi:type="xsd:long">0</First>
+        <Second xsi:type="xsd:long">1</Second>
+      </Pair>
+      <Pair>
+        <First xsi:type="xsd:long">1</First>
+        <Second xsi:type="xsd:long">10</Second>
+      </Pair>
+      <Pair>
+        <First xsi:type="xsd:long">3</First>
+        <Second xsi:type="xsd:long">4</Second>
+      </Pair>
+    </Products>
+    <BillId>1234</BillId>
+    <State>delivered</State>
+    <RouteId>0</RouteId>
+    <Departure>2000-07-14T07:43:37-06:00</Departure>
+    <Arrive>2000-07-14T07:43:37-06:00</Arrive>
+    <Deliver>2000-07-14T07:43:37-06:00</Deliver>
+  </Package>
+  <Package>
+    <TrackingId>5</TrackingId>
+    <Products>
+      <Pair>
+        <First xsi:type="xsd:long">1234</First>
+        <Second xsi:type="xsd:long">2</Second>
+      </Pair>
+      <Pair>
+        <First xsi:type="xsd:long">0</First>
+        <Second xsi:type="xsd:long">1</Second>
+      </Pair>
+      <Pair>
+        <First xsi:type="xsd:long">1</First>
+        <Second xsi:type="xsd:long">10</Second>
+      </Pair>
+      <Pair>
+        <First xsi:type="xsd:long">3</First>
+        <Second xsi:type="xsd:long">4</Second>
+      </Pair>
+    </Products>
+    <BillId>1234</BillId>
+    <State>delivered</State>
+    <RouteId>0</RouteId>
+    <Departure>2000-07-14T07:43:37-06:00</Departure>
+    <Arrive>2000-07-14T07:43:37-06:00</Arrive>
+    <Deliver>2001-07-14T07:43:37-06:00</Deliver>
+  </Package>
+</ArrayOfPackage>

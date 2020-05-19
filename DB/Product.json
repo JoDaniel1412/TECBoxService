@@ -1,0 +1,50 @@
+﻿[
+  {
+    "barcode": 0,
+    "name":"Strawberry Yogurt",
+    "description":"Dos Pinos",
+    "sellerId":"0",
+    "sells":"10",
+    "cost":800,
+    "iva":0.10,
+    "discount":0.10,
+    "price": 900,
+    "url": "http://www.mylittleitaliankitchen.com/wp-content/uploads/2017/05/making-strawb1.jpg"
+  },
+  {
+    "barcode": 1,
+    "name": "Butter",
+    "description": "Numar",
+    "sellerId": "2",
+    "sells": "2",
+    "cost": 800,
+    "iva": 0.10,
+    "discount": 0.10,
+    "price": 900,
+    "url": "http://distribuidorajiron.com.ni/3474-large_default/numar-margarine-450-gr.jpg"
+  },
+  {
+    "barcode": 2,
+    "name": "Nesquik",
+    "description": "Nestle",
+    "sellerId": "2",
+    "sells": "8",
+    "cost": 800,
+    "iva": 0.10,
+    "discount": 0.10,
+    "price": 900,
+    "url": "https://pics.drugstore.com/prodimg/554888/900.jpg"
+  },
+  {
+    "barcode": 3,
+    "name": "Rice",
+    "description": "Tio Pelon",
+    "sellerId": "1",
+    "sells": "20",
+    "cost": 800,
+    "iva": 0.10,
+    "discount": 0.10,
+    "price": 900,
+    "url": "http://distribuidorajiron.com.ni/7012-tm_large_default/rice-tio-pelon-80-20-440-lbs.jpg"
+  }
+]
